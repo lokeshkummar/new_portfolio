@@ -1,11 +1,6 @@
 import Image from "next/image";
-import logo from "../../public/logo.png"
+import logo from "../../public/logo.png";
 
 export const Logo = () => (
-  <Image
-    src={logo}
-    width={120}
-    height={50}
-    alt="logo image"
-  />
+  <Image src={logo} width={45} height={45} alt="logo image" />
 );
