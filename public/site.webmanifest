@@ -1,16 +1,7 @@
 {
-  "name": "Lokesg's Portfolio",
+  "name": "Lokesh's Portfolio",
   "short_name": "Portfolio",
   "icons": [
-    {
-      "src": "/favicon.ico",
-      "sizes": "48x48",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "/apple-touch-icon.png",
-      "type": "image/png"
-    },
     {
       "src": "/android-chrome-192x192.png",
       "sizes": "192x192",
