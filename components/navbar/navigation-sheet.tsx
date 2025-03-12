@@ -9,6 +9,8 @@ import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { Menu } from "lucide-react";
 import { Logo } from "./logo";
 import { NavMenu } from "./nav-menu";
+import Link from "next/link";
+import { Github } from 'lucide-react';
 
 export const NavigationSheet = () => {
   return (
@@ -26,10 +28,14 @@ export const NavigationSheet = () => {
         <NavMenu orientation="vertical" className="mt-12" />
 
         <div className="mt-8 space-y-4">
-          <Button variant="outline" className="w-full sm:hidden">
-            Sign In
+          <Button className="w-full xs:hidden">
+            <Link
+              className="flex gap-2 items-center"
+              href="https://github.com/lokeshkummar"
+            >
+              Github <Github/>
+            </Link>
           </Button>
-          <Button className="w-full xs:hidden">Get Started</Button>
         </div>
       </SheetContent>
     </Sheet>

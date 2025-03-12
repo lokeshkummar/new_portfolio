@@ -9,34 +9,44 @@ import { PlusIcon } from "lucide-react";
 
 const faq = [
   {
-    question: "What is your return policy?",
+    question: " What services do you offer?",
     answer:
-      "You can return unused items in their original packaging within 30 days for a refund or exchange. Contact support for assistance.",
+      "I specialize in web design and development, turning Figma designs into fully functional websites using React.js, Next.js, and Tailwind CSS.",
   },
   {
-    question: "How do I track my order?",
+    question: "How long does it take to build a website?",
     answer:
-      "Track your order using the link provided in your confirmation email, or log into your account to view tracking details.",
+      "The timeline depends on the project's complexity. A simple website may take 1-2 weeks, while larger projects may take 3-4 weeks or more.",
   },
   {
-    question: "Do you ship internationally?",
+    question: "Do you provide custom website designs?",
     answer:
-      "Yes, we ship worldwide. Shipping fees and delivery times vary by location, and customs duties may apply for some countries.",
+      "Yes, I create custom designs based on your brand identity, audience, and goals to ensure a unique and impactful website.",
   },
   {
-    question: "What payment methods do you accept?",
+    question: "Can you redesign my existing website?",
     answer:
-      "We accept Visa, MasterCard, American Express, PayPal, Apple Pay, and Google Pay, ensuring secure payment options for all customers.",
+      "Absolutely! I can revamp your website with improved design, performance, and functionality.",
   },
   {
-    question: "What if I receive a damaged item?",
+    question: "Do you offer mobile-responsive designs?",
     answer:
-      "Please contact our support team within 48 hours of delivery with photos of the damaged item. We’ll arrange a replacement or refund.",
+      "Yes, all websites I create are fully responsive and optimized for various devices.",
   },
   {
-    question: "How can I contact customer support?",
+    question: "What if I face issues after the project is completed?",
     answer:
-      "You can reach our support team via email at support@example.com or through the live chat on our website. We're available 24/7 to assist you.",
+      "I offer post-launch support to resolve any issues and ensure your website runs smoothly.",
+  },
+  {
+    question: "What are your payment terms?",
+    answer:
+      "I typically require a 50% upfront payment, with the remaining 50% due upon project completion.",
+  },
+  {
+    question: "Are there any hidden costs?",
+    answer:
+      "No hidden costs! I'll provide a clear breakdown of all expenses before starting the project.",
   },
 ];
 
@@ -47,7 +57,7 @@ const FAQ = () => {
         Frequently Asked Questions
       </h2>
       <p className="mt-1.5 md:text-center xs:text-lg text-muted-foreground">
-        Quick answers to common questions about our products and services.
+        Quick answers to common questions about our services.
       </p>
 
       <div className="min-h-[550px] md:min-h-[320px] xl:min-h-[300px]">

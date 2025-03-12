@@ -15,64 +15,56 @@ import { useEffect, useState } from "react";
 const testimonials = [
   {
     id: 1,
-    name: "John Doe",
-    designation: "Software Engineer",
-    company: "TechCorp",
+    name: "Emma Doe",
+    designation: "Business Owner",
+    image: "https://images.pexels.com/photos/18243762/pexels-photo-18243762/free-photo-of-retrato-de-linda-mulher-olhando-para-camera-em-estudio-fotografico-com-fundo-escuro-retrato-de-linda-mulher-olhando-para-camera-em-estudio-fotografico-com-fundo-escuro.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     testimonial:
-      "This product has completely transformed the way we work. The efficiency and ease of use are unmatched! " +
-      "We were struggling with productivity before, but this tool has streamlined our entire process. ",
+      "I had the pleasure of working with Lokesh on my website. His incredible work ethic and dedication left me speechless. Partnering with him was the best choice I made.",
     avatar: "https://randomuser.me/api/portraits/men/1.jpg",
   },
   {
     id: 2,
-    name: "Jane Smith",
+    name: "Olivia Smith",
     designation: "Product Manager",
-    company: "InnovateX",
+    image: "https://images.pexels.com/photos/14208763/pexels-photo-14208763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     testimonial:
-      "An amazing tool that simplifies complex tasks. Highly recommended for professionals in the industry. " +
-      "The intuitive interface makes it easy to onboard new team members, and the automation features save us countless hours every week. ",
+      "Lokesh is an exceptional and committed individual who goes above and beyond to deliver outstanding results. His experience in web development is highly impressive and I am excited to see the amazing projects he will create next!",
     avatar: "https://randomuser.me/api/portraits/women/2.jpg",
   },
   {
     id: 3,
-    name: "Michael Johnson",
-    designation: "UX Designer",
-    company: "DesignPro",
+    name: "Jonathan Parker",
+    designation: "Legal Firm",
+    image: "https://images.pexels.com/photos/8815887/pexels-photo-8815887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     testimonial:
-      "The user experience is top-notch! The interface is clean, intuitive, and easy to navigate. " +
-      "As a designer, I appreciate the attention to detail and well-thought-out UI components. " +
-      "It makes designing and prototyping so much more efficient.",
+      "Lokesh is a highly talented and dedicated professional. His exceptional attention to detail and extensive web development experience are truly impressive, and I am excited to see the remarkable projects he will create in the future.",
     avatar: "https://randomuser.me/api/portraits/men/3.jpg",
   },
   {
     id: 4,
     name: "Emily Davis",
     designation: "Marketing Specialist",
-    company: "BrandBoost",
+    image: "https://images.pexels.com/photos/14156504/pexels-photo-14156504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     testimonial:
-      "I've seen a significant improvement in our team's productivity since we started using this service. " +
-      "The ability to track performance, analyze data, and collaborate across teams has been a game-changer.",
+     "It's not easy to find a developer like Lokesh. He had an uncanny ability to understand exactly what I wanted and delivered a site that exceeded my expectations. Highly appreciated!",
     avatar: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     id: 5,
     name: "Daniel Martinez",
-    designation: "Full-Stack Developer",
-    company: "CodeCrafters",
+    designation: "Interior Designer",
+    image: "https://images.pexels.com/photos/7821525/pexels-photo-7821525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     testimonial:
-      "The best investment we've made! The support team is also super responsive and helpful. " +
-      "As a developer, I appreciate the well-documented API, the flexibility of integrations, and the robust security features.",
+      "Lokesh is a gem! He transformed my website with clean, modern designs and smooth functionality. Super happy with the results!",
     avatar: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     id: 6,
     name: "Sophia Lee",
-    designation: "Data Analyst",
-    company: "InsightTech",
+    designation: "Creative Writer",
+    image: "https://images.pexels.com/photos/8487441/pexels-photo-8487441.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     testimonial:
-      "This tool has saved me hours of work! The analytics and reporting features are incredibly powerful. " +
-      "I can now generate detailed reports in minutes, which previously took days to compile. " +
-      "helping us make smarter, data-backed decisions.",
+     "From start to finish, Lokesh was professional, patient, and incredibly skilled. My website now stands out, thanks to his expertise!",
     avatar: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
@@ -137,7 +129,7 @@ const TestimonialCard = ({
     <div className="flex items-center justify-between gap-20">
       <div className="hidden lg:block relative shrink-0 aspect-[3/4] max-w-[18rem] w-full bg-muted-foreground/20 rounded-xl">
         <Image
-          src="/placeholder.svg"
+          src={testimonial.image}
           fill
           alt=""
           className="object-cover rounded-xl"
@@ -173,11 +165,11 @@ const TestimonialCard = ({
             </div>
           </div>
           <div className="flex items-center gap-1">
-            <StarIcon className="w-5 h-5 fill-muted-foreground stroke-muted-foreground" />
-            <StarIcon className="w-5 h-5 fill-muted-foreground stroke-muted-foreground" />
-            <StarIcon className="w-5 h-5 fill-muted-foreground stroke-muted-foreground" />
-            <StarIcon className="w-5 h-5 fill-muted-foreground stroke-muted-foreground" />
-            <StarIcon className="w-5 h-5 fill-muted-foreground stroke-muted-foreground" />
+            <StarIcon className="w-5 h-5 fill-yellow-300 stroke-yellow-600" />
+            <StarIcon className="w-5 h-5 fill-yellow-300 stroke-yellow-600" />
+            <StarIcon className="w-5 h-5 fill-yellow-300 stroke-yellow-600" />
+            <StarIcon className="w-5 h-5 fill-yellow-300 stroke-yellow-600" />
+            <StarIcon className="w-5 h-5 fill-yellow-300 stroke-yellow-600" />
           </div>
         </div>
         <p className="mt-6 text-lg sm:text-2xl lg:text-[1.75rem] xl:text-3xl leading-normal lg:!leading-normal font-semibold tracking-tight">
