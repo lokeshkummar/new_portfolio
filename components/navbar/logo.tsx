@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../../../shadcn-ui-landing-page/public/logo.png"
+import logo from "../../public/logo.png"
 
 export const Logo = () => (
   <Image
