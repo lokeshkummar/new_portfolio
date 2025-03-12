@@ -1,5 +1,4 @@
 import {
-  DribbbleIcon,
   Github,
   Instagram,
   TwitterIcon,
