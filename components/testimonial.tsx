@@ -28,7 +28,7 @@ const testimonials = [
     designation: "Product Manager",
     image: "https://images.pexels.com/photos/14208763/pexels-photo-14208763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     testimonial:
-      "Lokesh is an exceptional and committed individual who goes above and beyond to deliver outstanding results. His experience in web development is highly impressive and I am excited to see the amazing projects he will create next!",
+      "Lokesh is an exceptional and committed individual who goes above and beyond to deliver outstanding results.",
     avatar: "https://randomuser.me/api/portraits/women/2.jpg",
   },
   {
@@ -37,7 +37,7 @@ const testimonials = [
     designation: "Legal Firm",
     image: "https://images.pexels.com/photos/8815887/pexels-photo-8815887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     testimonial:
-      "Lokesh is a highly talented and dedicated professional. His exceptional attention to detail and extensive web development experience are truly impressive, and I am excited to see the remarkable projects he will create in the future.",
+      "Lokesh is a highly talented and dedicated guy. His attention to detail and extensive web development experience are impressive.",
     avatar: "https://randomuser.me/api/portraits/men/3.jpg",
   },
   {
@@ -53,7 +53,7 @@ const testimonials = [
     id: 5,
     name: "Daniel Martinez",
     designation: "Interior Designer",
-    image: "https://images.pexels.com/photos/7821525/pexels-photo-7821525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "https://images.pexels.com/photos/29249668/pexels-photo-29249668/free-photo-of-man-working-on-laptop-in-outdoor-cafe-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     testimonial:
       "Lokesh is a gem! He transformed my website with clean, modern designs and smooth functionality. Super happy with the results!",
     avatar: "https://randomuser.me/api/portraits/men/5.jpg",
@@ -62,7 +62,7 @@ const testimonials = [
     id: 6,
     name: "Sophia Lee",
     designation: "Creative Writer",
-    image: "https://images.pexels.com/photos/8487441/pexels-photo-8487441.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "https://images.pexels.com/photos/6964054/pexels-photo-6964054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     testimonial:
      "From start to finish, Lokesh was professional, patient, and incredibly skilled. My website now stands out, thanks to his expertise!",
     avatar: "https://randomuser.me/api/portraits/women/6.jpg",
