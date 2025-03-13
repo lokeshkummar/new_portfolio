@@ -13,7 +13,7 @@ const Hero = () => {
             Hire Me or Work with Me
           </Badge>
           <h1 className="mt-6 max-w-[20ch] text-3xl xs:text-4xl sm:text-5xl lg:text-[2.75rem] xl:text-5xl font-bold !leading-[1.2] tracking-tight">
-            Lokesh Kumar <br /> FrontEnd - Developer
+            Lokesh Kumar <br /> <span className="text-4xl sm:text-5xl">FrontEnd - Developer</span>
           </h1>
           <p className="mt-6 max-w-[60ch] xs:text-lg">
           Empowering business owners to thrive online with custom, visually stunning, and high-performing websites. From design to development, I craft digital experiences that captivate and convert.

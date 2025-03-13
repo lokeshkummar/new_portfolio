@@ -125,7 +125,7 @@ const TestimonialCard = ({
 }: {
   testimonial: (typeof testimonials)[number];
 }) => (
-  <div className="min-h-96 mb-8 bg-accent rounded-xl py-8 px-6 sm:py-6">
+  <div className="min-h-[400px] mb-8 bg-accent rounded-xl py-8 px-6 sm:py-6">
     <div className="flex items-center justify-between gap-20">
       <div className="hidden lg:block relative shrink-0 aspect-[3/4] max-w-[18rem] w-full bg-muted-foreground/20 rounded-xl">
         <Image
@@ -165,11 +165,11 @@ const TestimonialCard = ({
             </div>
           </div>
           <div className="flex items-center gap-1">
-            <StarIcon className="w-5 h-5 fill-yellow-300 stroke-yellow-600" />
-            <StarIcon className="w-5 h-5 fill-yellow-300 stroke-yellow-600" />
-            <StarIcon className="w-5 h-5 fill-yellow-300 stroke-yellow-600" />
-            <StarIcon className="w-5 h-5 fill-yellow-300 stroke-yellow-600" />
-            <StarIcon className="w-5 h-5 fill-yellow-300 stroke-yellow-600" />
+            <StarIcon className="w-5 h-5 fill-yellow-300 stroke-yellow-900" />
+            <StarIcon className="w-5 h-5 fill-yellow-300 stroke-yellow-900" />
+            <StarIcon className="w-5 h-5 fill-yellow-300 stroke-yellow-900" />
+            <StarIcon className="w-5 h-5 fill-yellow-300 stroke-yellow-900" />
+            <StarIcon className="w-5 h-5 fill-yellow-300 stroke-yellow-900" />
           </div>
         </div>
         <p className="mt-6 text-lg sm:text-2xl lg:text-[1.75rem] xl:text-3xl leading-normal lg:!leading-normal font-semibold tracking-tight">
