@@ -18,59 +18,53 @@ import Link from "next/link";
 
 const features = [
   {
-    id:1,
+    id: 1,
     icon: Bot,
-    title: "OptiJS - AI code reviewer",
+    title: "OptiJS - AI Code Reviewer",
     image: Img1,
-    link:"https://optijs.vercel.app" ,
-    description:
-      "Easily uncover untapped areas to explore and expand your reach effortlessly.",
+    link: "https://optijs.vercel.app",
+    description: "An AI-powered tool that reviews JavaScript code, identifies issues, and suggests improvements for better code quality."
   },
   {
-    id:2,
+    id: 2,
     icon: SquareDashedMousePointer,
-    title: "Rembg - Image bg remover",
+    title: "Rembg - Image BG Remover",
     image: Img2,
-    link:"https://rembgg.netlify.app" ,
-    description:
-      "Create valuable content that resonates, inspires trust, and positions you as an expert.",
+    link: "https://rembgg.netlify.app",
+    description: "Remove backgrounds from images instantly using this fast and efficient web app."
   },
   {
-    id:3,
+    id: 3,
     icon: Dumbbell,
-    title: "FlexFlow - GYM website",
+    title: "FlexFlow - GYM Website",
     image: Img3,
-    link:"https://flexfloww.vercel.app" ,
-    description:
-      "Gain immediate, actionable insights with a quick glance, enabling fast decision-making.",
+    link: "https://flexfloww.vercel.app",
+    description: "A sleek and responsive GYM website designed to showcase services, programs, and fitness classes."
   },
   {
-    id:4,
+    id: 4,
     icon: Users,
-    title: "NKHR - Agency wensite",
+    title: "NKHR - Agency Website",
     image: Img4,
-    link:"https://https://nkhr-solutions.netlify.app" ,
-    description:
-      "Boost audience engagement with interactive features like polls, quizzes, and forms.",
+    link: "https://nkhr-solutions.netlify.app",
+    description: "A professional business website designed to highlight NKHR's services, team, and portfolio."
   },
   {
-    id:5,
+    id: 5,
     icon: Goal,
-    title: "Quzenit - Web devlopment agency",
+    title: "Quzenit - Web Development Agency",
     image: Img5,
-    link:"https://quzenit.vercel.app" ,
-    description:
-      "Streamline your processes by automating repetitive tasks, saving time and reducing effort.",
+    link: "https://quzenit.vercel.app",
+    description: "A modern agency website showcasing Quzenit's expertise in web design and development services."
   },
   {
-    id:6,
+    id: 6,
     icon: Pipette,
     title: "Color Picker",
     image: Img6,
-    link:"https://pickacolor.vercel.app" ,
-    description:
-      "Supercharge your growth by implementing strategies that drive results quickly and efficiently.",
-  },
+    link: "https://pickacolor.vercel.app",
+    description: "A simple yet powerful color picker tool for designers and developers to grab accurate color codes effortlessly."
+  }
 ];
 
 const Features = () => {
