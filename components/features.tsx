@@ -82,7 +82,7 @@ const Features = () => {
           <Link key={feature.id} href={feature.link} target="_blank" >
           <Card
             key={feature.id}
-            className="flex flex-col min-h-96 border hover:scale-105 hover:shadow-xl ease-in-out duration-300 cursor-pointer rounded-xl overflow-hidden shadow-none"
+            className="flex flex-col h-96 border hover:scale-105 hover:shadow-xl ease-in-out duration-300 cursor-pointer rounded-xl overflow-hidden shadow-none"
           >
             <CardHeader>
               <feature.icon />
