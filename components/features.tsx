@@ -13,6 +13,8 @@ import Img3 from "../public/flexflow.png";
 import Img4 from "../public/nkhr.png";
 import Img5 from "../public/quzenit.png";
 import Img6 from "../public/color-picker.png";
+import Img7 from "../public/gsvr-media.png"
+import Img8 from "../public/collegedaddy.png"
 import Image from "next/image";
 import Link from "next/link";
 
@@ -44,12 +46,12 @@ const features = [
   {
     id: 4,
     icon: Users,
-    title: "NKHR - Agency Website",
-    image: Img4,
-    link: "https://nkhr-solutions.netlify.app",
-    description: "A professional business website designed to highlight NKHR's services, team, and portfolio."
+    title: "CollegeDaddy",
+    image: Img8,
+    link: "https://collegedaddy.in",
+    description: "A professional business website designed to highlight CollegeDaddy's services, team, and portfolio."
   },
-  {
+    {
     id: 5,
     icon: Goal,
     title: "Quzenit - Web Development Agency",
@@ -59,6 +61,23 @@ const features = [
   },
   {
     id: 6,
+    icon: Users,
+    title: "GSVR Media - Agency Website",
+    image: Img7,
+    link: "https://gsvrmedia.in",
+    description: "A professional business website designed to highlight GSVR Media's services, team, and portfolio."
+
+  },
+  {
+    id: 7,
+    icon: Users,
+    title: "NKHR - Agency Website",
+    image: Img4,
+    link: "https://nkhr-solutions.netlify.app",
+    description: "A professional business website designed to highlight NKHR's services, team, and portfolio."
+  },
+  {
+    id: 8,
     icon: Pipette,
     title: "Color Picker",
     image: Img6,

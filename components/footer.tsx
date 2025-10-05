@@ -14,23 +14,23 @@ const Footer = () => {
         {/* Copyright */}
         <span className="text-muted-foreground text-center xs:text-start">
           &copy; {new Date().getFullYear()}{" "}
-          <Link href="https://linkedin.com/in/lokesh-kummar" target="_blank">
+          <Link className="hover:underline hover:font-semibold ease-linear duration-200" href="https://linkedin.com/in/lokesh-kummar" target="_blank">
             Lokesh Kumar
           </Link>
           . All rights reserved.
         </span>
 
         <div className="flex items-center gap-5 text-muted-foreground">
-          <Link href="https://linkedin.com/in/lokesh-kumar" target="_blank">
+          <Link href="https://linkedin.com/in/lokesh-kummar" target="_blank">
             <Linkedin className="h-5 w-5" />
           </Link>
           <Link href="https://github.com/lokeshkummar" target="_blank">
             <Github className="h-5 w-5" />
           </Link>
-          <Link href="https://x.com/lokeshkummar.com" target="_blank">
+          <Link href="https://x.com/lokeshkummar" target="_blank">
             <TwitterIcon className="h-5 w-5" />
           </Link>
-          <Link href="https://instagram.com/lokes.dev" target="_blank">
+          <Link href="https://instagram.com/lokes.tsx" target="_blank">
             <Instagram className="h-5 w-5" />
           </Link>
           
