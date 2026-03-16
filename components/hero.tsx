@@ -49,7 +49,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="relative h-full w-full lg:max-w-lg xl:max-w-xl rounded-xl aspect-square flex items-center justify-center">
-          <div className="h-96 w-96 rounded-full bg-[#9b2220] absolute top-10 blur-2xl"></div>
+          <div className="h-64 w-64 animate-pulse sm:h-96 sm:w-96 rounded-full bg-[#9b2220] absolute top-10 blur-2xl"></div>
          
           <Image
             src={MacbookCharacter}
