@@ -18,6 +18,7 @@ import Img6 from "../public/color-picker.png";
 import Img7 from "../public/gsvr-media.png"
 import Img8 from "../public/collegedaddy.png"
 import Billingo from "../public/billingo.png"
+import ph2as from "../public/ph2as.png"
 import Isui from "../public/isui.png"
 import Image from "next/image";
 import Link from "next/link";
@@ -26,6 +27,14 @@ const features = [
   {
     id: 0,
     icon: AppWindow,
+    title: "Ph2as - Image to ascii art generator",
+    image: ph2as,
+    link: "https://ph2as.vercel.app",
+    description: "A simple yet powerful image to ASCII art generator tool for designers and developers to convert images into ASCII art effortlessly."
+  },
+  {
+    id: 1,
+    icon: Goal,
     title: "Billingo - B2B Invoicing Software",
     image: Billingo,
     link: "https://billingoo.vercel.app",
@@ -33,7 +42,7 @@ const features = [
 
   },
   {
-    id: 1,
+    id: 2,
     icon: Component,
     title: "ISUI - Animated Component UI Library",
     image: Isui,
@@ -41,7 +50,7 @@ const features = [
     description: "A React library that provides a collection of animated components for building user interfaces."
   },
   {
-    id: 2,
+    id: 3,
     icon: Bot,
     title: "OptiJS - AI Code Reviewer",
     image: Img1,
@@ -49,7 +58,7 @@ const features = [
     description: "An AI-powered tool that reviews JavaScript code, identifies issues, and suggests improvements for better code quality."
   },
   {
-    id: 3,
+    id: 4,
     icon: SquareDashedMousePointer,
     title: "Rembg - Image BG Remover",
     image: Img2,
@@ -57,7 +66,7 @@ const features = [
     description: "Remove backgrounds from images instantly using this fast and efficient web app."
   },
   {
-    id: 4,
+    id: 5,
     icon: Dumbbell,
     title: "FlexFlow - GYM Website",
     image: Img3,
@@ -65,15 +74,15 @@ const features = [
     description: "A sleek and responsive GYM website designed to showcase services, programs, and fitness classes."
   },
   {
-    id: 5,
+    id: 6,
     icon: Users,
     title: "CollegeDaddy",
     image: Img8,
-    link: "https://collegedaddy.in",
+    link: "https://college-daddy.vercel.app",
     description: "A professional business website designed to highlight CollegeDaddy's services, team, and portfolio."
   },
     {
-    id: 6,
+    id: 7,
     icon: Goal,
     title: "Quzenit - Web Development Agency",
     image: Img5,
@@ -81,7 +90,7 @@ const features = [
     description: "A modern agency website showcasing Quzenit's expertise in web design and development services."
   },
   {
-    id: 7,
+    id: 8,
     icon: Users,
     title: "GSVR Media - Agency Website",
     image: Img7,
@@ -90,7 +99,7 @@ const features = [
 
   },
   {
-    id: 8,
+    id: 9,
     icon: Users,
     title: "NKHR - Agency Website",
     image: Img4,
@@ -98,7 +107,7 @@ const features = [
     description: "A professional business website designed to highlight NKHR's services, team, and portfolio."
   },
   {
-    id: 9,
+    id: 10,
     icon: Pipette,
     title: "Color Picker",
     image: Img6,
